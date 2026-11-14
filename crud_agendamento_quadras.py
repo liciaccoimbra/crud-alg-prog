@@ -44,19 +44,24 @@ while opcao != "5":
             data_reserva = input("Data da reserva: ")
             horario_reserva = input("Horário da reserva: ")
 
-            agendamento = {
-                "id": proximo_id,
-                "nome_cliente": nome_cliente,
-                "modalidade": modalidade,
-                "data_reserva": data_reserva,
-                "horario_reserva": horario_reserva
-            }
+            if nome_cliente != "" and data_reserva != "" and horario_reserva != "":
 
-            agendamentos.append(agendamento)
+                agendamento = {
+                    "id": proximo_id,
+                    "nome_cliente": nome_cliente,
+                    "modalidade": modalidade,
+                    "data_reserva": data_reserva,
+                    "horario_reserva": horario_reserva
+                }
 
-            proximo_id += 1
+                agendamentos.append(agendamento)
 
-            print("\nReserva cadastrada com sucesso!")
+                proximo_id += 1
+
+                print("\nReserva cadastrada com sucesso!")
+
+            else:
+                print("Todos os campos devem ser preenchidos. Cadastro não realizado.")
 
         else:
             print("Modalidade inválida. Cadastro não realizado.")
