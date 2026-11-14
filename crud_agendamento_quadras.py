@@ -1,3 +1,4 @@
+
 # Sistema de agendamento de quadras de vôlei/futevôlei
 
 nome_cliente = ""
@@ -17,7 +18,7 @@ while opcao != "5":
     print("4 - Cancelar reserva")
     print("5 - Sair")
 
-opcao = input("Escolha uma opção: ")
+    opcao = input("Escolha uma opção: ")
 
     if opcao == "1":
 
@@ -27,8 +28,8 @@ opcao = input("Escolha uma opção: ")
             print("1 - Vôlei")
             print("2 - Futevôlei")
 
-        modalidade_digitada = input("Opção: ")
-          
+            modalidade_digitada = input("Opção: ")
+
             if modalidade_digitada == "1":
                 modalidade = "Vôlei"
 
