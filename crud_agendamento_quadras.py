@@ -1,134 +1,185 @@
 
 # Sistema de agendamento de quadras de vôlei/futevôlei
 
-nome_cliente = ""
-modalidade = ""
-data_reserva = ""
-horario_reserva = ""
+# Lista para armazenar os agendamentos
+agendamentos = []
 
-reserva_cadastrada = False
+# Identificador do próximo agendamento
+proximo_id = 1
+
 opcao = ""
 
 while opcao != "5":
 
     print("\n===== AGENDAMENTO DE QUADRAS =====")
     print("1 - Cadastrar reserva")
-    print("2 - Consultar reserva")
+    print("2 - Consultar reservas")
     print("3 - Atualizar reserva")
     print("4 - Cancelar reserva")
     print("5 - Sair")
 
     opcao = input("Escolha uma opção: ")
 
+    # CADASTRAR RESERVA
     if opcao == "1":
 
-        if reserva_cadastrada == False:
+        print("\nEscolha a modalidade:")
+        print("1 - Vôlei")
+        print("2 - Futevôlei")
 
-            print("\nEscolha a modalidade:")
-            print("1 - Vôlei")
-            print("2 - Futevôlei")
+        modalidade_digitada = input("Opção: ")
 
-            modalidade_digitada = input("Opção: ")
+        if modalidade_digitada == "1":
+            modalidade = "Vôlei"
 
-            if modalidade_digitada == "1":
-                modalidade = "Vôlei"
-
-            elif modalidade_digitada == "2":
-                modalidade = "Futevôlei"
-
-            else:
-                modalidade = ""
-
-            if modalidade != "":
-
-                nome_cliente = input("Nome do cliente: ")
-                data_reserva = input("Data da reserva: ")
-                horario_reserva = input("Horário da reserva: ")
-
-                reserva_cadastrada = True
-
-                print("\nReserva cadastrada com sucesso!")
-
-            else:
-                print("Modalidade inválida. Cadastro não realizado.")
+        elif modalidade_digitada == "2":
+            modalidade = "Futevôlei"
 
         else:
-            print("Já existe uma reserva cadastrada.")
+            modalidade = ""
 
+        if modalidade != "":
+
+            nome_cliente = input("Nome do cliente: ")
+            data_reserva = input("Data da reserva: ")
+            horario_reserva = input("Horário da reserva: ")
+
+            agendamento = {
+                "id": proximo_id,
+                "nome_cliente": nome_cliente,
+                "modalidade": modalidade,
+                "data_reserva": data_reserva,
+                "horario_reserva": horario_reserva
+            }
+
+            agendamentos.append(agendamento)
+
+            proximo_id += 1
+
+            print("\nReserva cadastrada com sucesso!")
+
+        else:
+            print("Modalidade inválida. Cadastro não realizado.")
+
+    # CONSULTAR RESERVAS
     elif opcao == "2":
 
-        if reserva_cadastrada == True:
+        if len(agendamentos) > 0:
 
-            print("\n===== DADOS DA RESERVA =====")
-            print("Nome do cliente:", nome_cliente)
-            print("Modalidade:", modalidade)
-            print("Data da reserva:", data_reserva)
-            print("Horário da reserva:", horario_reserva)
+            print("\n===== AGENDAMENTOS CADASTRADOS =====")
+
+            for agendamento in agendamentos:
+
+                print("\nID:", agendamento["id"])
+                print("Nome do cliente:", agendamento["nome_cliente"])
+                print("Modalidade:", agendamento["modalidade"])
+                print("Data da reserva:", agendamento["data_reserva"])
+                print("Horário da reserva:", agendamento["horario_reserva"])
 
         else:
             print("Nenhuma reserva cadastrada.")
 
+    # ATUALIZAR RESERVA
     elif opcao == "3":
 
-        if reserva_cadastrada == True:
+        if len(agendamentos) > 0:
 
-            print("\n===== ATUALIZAR RESERVA =====")
-            print("1 - Alterar nome do cliente")
-            print("2 - Alterar modalidade")
-            print("3 - Alterar data")
-            print("4 - Alterar horário")
+            print("\n===== AGENDAMENTOS CADASTRADOS =====")
 
-            campo = input("O que deseja atualizar? ")
+            for agendamento in agendamentos:
+                print("ID:", agendamento["id"], "- Cliente:", agendamento["nome_cliente"])
 
-            if campo == "1":
-                nome_cliente = input("Novo nome do cliente: ")
-                print("Nome atualizado com sucesso!")
+            id_busca = input("\nDigite o ID da reserva que deseja atualizar: ")
 
-            elif campo == "2":
+            reserva_encontrada = False
 
-                print("\nEscolha a nova modalidade:")
-                print("1 - Vôlei")
-                print("2 - Futevôlei")
+            for agendamento in agendamentos:
 
-                modalidade_digitada = input("Opção: ")
+                if str(agendamento["id"]) == id_busca:
 
-                if modalidade_digitada == "1":
-                    modalidade = "Vôlei"
-                    print("Modalidade atualizada com sucesso!")
+                    reserva_encontrada = True
 
-                elif modalidade_digitada == "2":
-                    modalidade = "Futevôlei"
-                    print("Modalidade atualizada com sucesso!")
+                    print("\n===== ATUALIZAR RESERVA =====")
+                    print("1 - Alterar nome do cliente")
+                    print("2 - Alterar modalidade")
+                    print("3 - Alterar data")
+                    print("4 - Alterar horário")
 
-                else:
-                    print("Modalidade inválida. Nenhuma alteração realizada.")
+                    campo = input("O que deseja atualizar? ")
 
-            elif campo == "3":
-                data_reserva = input("Nova data da reserva: ")
-                print("Data atualizada com sucesso!")
+                    if campo == "1":
 
-            elif campo == "4":
-                horario_reserva = input("Novo horário da reserva: ")
-                print("Horário atualizado com sucesso!")
+                        agendamento["nome_cliente"] = input("Novo nome do cliente: ")
+                        print("Nome atualizado com sucesso!")
 
-            else:
-                print("Opção de atualização inválida.")
+                    elif campo == "2":
+
+                        print("\nEscolha a nova modalidade:")
+                        print("1 - Vôlei")
+                        print("2 - Futevôlei")
+
+                        modalidade_digitada = input("Opção: ")
+
+                        if modalidade_digitada == "1":
+                            agendamento["modalidade"] = "Vôlei"
+                            print("Modalidade atualizada com sucesso!")
+
+                        elif modalidade_digitada == "2":
+                            agendamento["modalidade"] = "Futevôlei"
+                            print("Modalidade atualizada com sucesso!")
+
+                        else:
+                            print("Modalidade inválida. Nenhuma alteração realizada.")
+
+                    elif campo == "3":
+
+                        agendamento["data_reserva"] = input("Nova data da reserva: ")
+                        print("Data atualizada com sucesso!")
+
+                    elif campo == "4":
+
+                        agendamento["horario_reserva"] = input("Novo horário da reserva: ")
+                        print("Horário atualizado com sucesso!")
+
+                    else:
+                        print("Opção de atualização inválida.")
+
+                    break
+
+            if reserva_encontrada == False:
+                print("Reserva não encontrada.")
 
         else:
             print("Não existe reserva para atualizar.")
 
+    # CANCELAR RESERVA
     elif opcao == "4":
 
-        if reserva_cadastrada == True:
+        if len(agendamentos) > 0:
 
-            nome_cliente = ""
-            modalidade = ""
-            data_reserva = ""
-            horario_reserva = ""
+            print("\n===== AGENDAMENTOS CADASTRADOS =====")
 
-            reserva_cadastrada = False
+            for agendamento in agendamentos:
+                print("ID:", agendamento["id"], "- Cliente:", agendamento["nome_cliente"])
 
-            print("Reserva cancelada com sucesso!")
+            id_busca = input("\nDigite o ID da reserva que deseja cancelar: ")
+
+            reserva_encontrada = False
+
+            for agendamento in agendamentos:
+
+                if str(agendamento["id"]) == id_busca:
+
+                    agendamentos.remove(agendamento)
+
+                    reserva_encontrada = True
+
+                    print("Reserva cancelada com sucesso!")
+
+                    break
+
+            if reserva_encontrada == False:
+                print("Reserva não encontrada.")
 
         else:
             print("Não existe reserva para cancelar.")
