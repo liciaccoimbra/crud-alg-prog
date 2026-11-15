@@ -23,14 +23,14 @@
 
 | Campo | Preencha |
 |---|---|
-| **Nome do estudante** | _escreva aqui_ |
-| **Curso / Módulo** | _ex.: ADS · 2º período_ |
+| **Nome do estudante** | Lícia Cruz Coimbra|
+| **Curso / Módulo** | Engenharia de Software · 2º período |
 | **Unidade curricular** | Algoritmos e Programação — UnDB 2026.2 |
 | **Professor** | Rondineli Seba Salomão |
-| **App-base do meu CRUD** | _ex.: um app de delivery, um app de músicas…_ |
-| **Link do meu repositório** | _https://github.com/…_ |
-| **Dupla de revisão (Campo 05)** | _nome do colega cujo CRUD vou revisar / que revisa o meu_ |
-| **Função neste ciclo** | _Autor do meu CRUD · Revisor do CRUD de um colega_ |
+| **App-base do meu CRUD** | Sistema de agendamento de quadras de vôlei/futevôlei — MARÉ |
+| **Link do meu repositório** | https://github.com/liciaccoimbra/crud-alg-prog |
+| **Dupla de revisão (Campo 05)** | Júlia Ferreira |
+| **Função neste ciclo** | Autora do meu CRUD · Revisora do CRUD de um colega |
 
 ---
 
@@ -182,13 +182,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 01 — 12/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Conhecer as ferramentas que seriam utilizadas na disciplina e escolher um projeto para desenvolver o CRUD ao longo do semestre.
+2. **O que implementei (commits / arquivos / links):** Escolhi o MARÉ, um sistema de agendamento de quadras de vôlei e futevôlei. Também fui aprendendo e começando a trabalhar com Git e GitHub durante as aulas. Já tinha familiaridade com o VS Code, mas ainda estava aprendendo a utilizar as ferramentas de controle de versão.
+3. **Objeto(s) de conhecimento mobilizado(s):** Utilização do VS Code como ambiente de desenvolvimento, noções iniciais de Git e GitHub e organização de um projeto de programação.
+4. **Desvio ou erro encontrado + causa técnica:** No início, tive dificuldade para entender como funcionava um CRUD e qual era a sequência das operações. Também tinha pouca familiaridade com Python e com a lógica necessária para desenvolver um sistema, já que comecei a programar recentemente. Ao longo do semestre, fui compreendendo melhor como funcionam o cadastro, a consulta, a atualização e a exclusão de informações.
+5. **Decisão de ajuste + fonte:** Escolhi desenvolver o MARÉ por ser um tema do meu interesse pessoal, já que jogo vôlei e conheço a realidade das reservas de quadras. Percebi que muitos agendamentos são feitos por WhatsApp ou pessoalmente, o que pode dificultar a organização das reservas. Essa experiência me motivou a pensar em um sistema que pudesse facilitar esse processo.
+6. **Feedback recebido e o que mudei:** Não recebi um feedback específico.
+7. **Próximo passo:** Continuar estudando a lógica de programação e entender melhor como desenvolver as operações do CRUD, começando pela implementação do sistema de agendamento.
 
 ## 🟢 CICLO 02 — 19/08 — Variáveis, tipos de dados e entrada/saída
 
@@ -213,19 +213,19 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *Grupo 1 | Prazo segunda 16/11, 23h59 | SEM CONSULTA*
 
 **1a. Objetos de conhecimento identificados (mínimo 3, com vocabulário técnico):**
-1. _…_
-2. _…_
-3. _…_
-4. _…_ *(opcional)*
+1. Lógica 
+2. Utilização de condicionais
+3. Declaração e utilização de variáveis
+4. Tipos de dados, por conta do uso de aspas
 
 **1b. Lacunas — o que não sei e preciso descobrir (mínimo 3, com precisão técnica):**
-1. _…_
-2. _…_
-3. _…_
+1. Dificuldade para organizar o passo a passo de uma solução
+2. Separar o que é realmente importante para resolver um problema, deixando excessos de informações
+3. Transformar o raciocínio em comandos Python, organizar o código e saber como continuar quando trava
 
 **1c. Hipótese inicial em até 5 linhas — com lógica da área de formação:**
 
-> _…_
+> Creio que algumas das falhas do CRUD podem estar associadas à organização da lógica e à escrita dos comandos em Python. Quando essas partes não estão bem organizadas, o sistema pode não interpretar as informações corretamente e realizar operações diferentes do que foi planejado
 
 ### 🧩 CAMPO 02 — Aprofundamento pós-aula
 *AV Qualis — Grupo 1 | Segunda 16/11, 23h59*
