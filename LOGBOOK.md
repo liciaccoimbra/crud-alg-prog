@@ -106,10 +106,10 @@ Atualize a cada commit (troque ⬜ por ✅).
 
 | Grupo | Item | Prazo | Preenchido | Commit |
 |:--:|---|---|:--:|:--:|
-| 1 | Identificação | 16/11 | ⬜ | ⬜ |
+| 1 | Identificação | 16/11 | ✅ | ✅ |
 | 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 01 — Instrumento de entrada | 16/11 | ⬜ | ⬜ |
-| 1 | Campo 02 — Aprofundamento | 16/11 | ⬜ | ⬜ |
+| 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
+| 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
 | 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
 | 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
 | 2 | Campo 03 — Execução e desvios | 21/11 | ⬜ | ⬜ |
@@ -163,11 +163,11 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 > **Sugestão de ordem:** (1) Identificação → (2) **Campo 01 primeiro, sem consulta** → (3) Registros dos Ciclos 01 a 04 → (4) Campo 02, com pesquisa.
 
 **Checklist do Grupo 1**
-- [ ] Identificação preenchida (app-base, link do repositório, dupla de revisão)
-- [ ] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
-- [ ] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
-- [ ] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
-- [ ] Commits no GitHub e painel atualizado
+- [✅] Identificação preenchida (app-base, link do repositório, dupla de revisão)
+- [✅] Campo 01: 3 objetos de conhecimento, 3 lacunas, hipótese de até 5 linhas
+- [✅] Registros dos Ciclos 01, 02, 03 e 04 com os 7 itens
+- [✅] Campo 02: 2 referências com contribuição, hipótese revisada, 3 recursos
+- [✅] Commits no GitHub e painel atualizado
 
 ## 🟢 CICLO 01 — 12/08 — Preparação do laboratório e escolha do projeto
 
@@ -252,13 +252,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 | Casos de teste para entrada de dados (4 cenários: texto válido, número inteiro, entrada vazia e tipo inválido no input()) | 4 | Praticar a organização de instruções, a utilização de variáveis, os tipos de dados e as estruturas condicionais |
 
 #### Registro do Ciclo 02 — 19/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender a utilização de variáveis, tipos de dados e operações matemáticas, aplicando esses conceitos em pequenos exercícios de programação
+2. **O que implementei (commits / arquivos / links):** Desenvolvi exercícios em Python envolvendo uma calculadora simples, a identificação de números pares e ímpares e o cálculo das raízes de uma equação utilizando a fórmula de Bhaskara. Nos exercícios, utilizei variáveis para armazenar valores, operações matemáticas e a função print() para exibir os resultados / https://github.com/liciaccoimbra/aulas/blob/main/aula1908pa.py
+3. **Objeto(s) de conhecimento mobilizado(s):** Declaração e utilização de variáveis, tipos de dados (int, float e str), operadores aritméticos (+, -, *, /, % e **), operadores relacionais, estruturas condicionais (if, elif e else) e saída de dados com print()
+4. **Desvio ou erro encontrado + causa técnica:** Durante a execução dos exercícios, não identifiquei erros que impedissem o funcionamento dos códigos. Os resultados foram apresentados corretamente para os valores utilizados. Ao revisar a atividade, percebi que os testes foram realizados com valores específicos, sem explorar todas as possibilidades das estruturas condicionais. Por exemplo, na calculadora, foi utilizada a operação de soma, e no exercício de Bhaskara foi trabalhado um caso em que o delta era maior que zero
+5. **Decisão de ajuste + fonte:** Organizei os exercícios em partes separadas e utilizei estruturas condicionais para direcionar as operações de acordo com cada situação. Na calculadora, utilizei uma verificação com if para impedir a divisão por zero antes de realizar a operação. Essa decisão ajudou a compreender a importância das condições na prevenção de erros durante a execução do programa. Fonte: atividade prática desenvolvida na aula de 19/08
+6. **Feedback recebido e o que mudei:** Não me recordo de um feedback específico recebido neste ciclo
+7. **Próximo passo:** Continuar praticando a utilização de variáveis e operadores, aprofundar o conhecimento sobre entrada de dados com input() e compreender melhor como validar as informações recebidas antes de utilizá-las nos cálculos
 
 ## 🟢 CICLO 03 — 26/08 — Operadores, fluxogramas e paradigmas
 
