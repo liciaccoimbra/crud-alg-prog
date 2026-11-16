@@ -271,13 +271,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 03 — 26/08
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Aplicar operadores aritméticos e relacionais, entrada e conversão de dados e estruturas condicionais na resolução de um exercício em Python
+2. **O que implementei (commits / arquivos / links):** Desenvolvi um programa em Python para receber três notas, calcular a média, identificar a maior nota e apresentar a situação do estudante. Para isso, utilizei input() para receber os valores, float() para convertê-los em números decimais, max() para identificar a maior nota e print() para apresentar os resultados
+3. **Objeto(s) de conhecimento mobilizado(s):**  Variáveis, entrada e saída de dados, conversão de tipos (str para float), operadores aritméticos (+ e /), operadores relacionais (>= e <), estruturas condicionais (if, elif e else) e funções embutidas, como max(). Também foram abordados os fluxogramas e a organização das etapas de um algoritmo, acompanhando a explicação do professor sobre a sequência de execução de um programa
+4. **Desvio ou erro encontrado + causa técnica:** Durante a execução, não identifiquei erros que impedissem o funcionamento do programa. Os resultados foram apresentados corretamente para as notas informadas e, depois ao revisar o código, percebi que não foi incluída uma validação para verificar se as notas estavam dentro da escala permitida. Também não há tratamento para entradas que não representem números, o que poderia gerar um erro durante a conversão com float()
+5. **Decisão de ajuste + fonte:** Utilizei estruturas condicionais para classificar a situação do estudante de acordo com a média calculada. A combinação de if, elif e else permitiu estabelecer diferentes resultados conforme as condições definidas. Também utilizei max() para identificar a maior nota sem precisar realizar comparações manualmente entre os valores. Fonte: atividade prática desenvolvida na aula de 26/08 e explicação do professor sobre operadores e fluxogramas
+6. **Feedback recebido e o que mudei:** Não me recordo de um feedback específico recebido neste ciclo
+7. **Próximo passo:** Continuar praticando operadores e estruturas condicionais, aprofundando a compreensão sobre a organização da lógica dos algoritmos e a validação dos dados recebidos pelo programa
 
 ## 🟢 CICLO 04 — 02/09 — Estruturas condicionais: `if`, `elif`, `else`
 
