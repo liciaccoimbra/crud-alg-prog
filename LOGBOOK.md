@@ -234,21 +234,22 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 **2a. Aprofundamento dos objetos de conhecimento (mínimo 2 referências com síntese da contribuição para a solução):**
 
-- **Referência 1:** _…_ — **Contribuição:** _…_
-- **Referência 2:** _…_ — **Contribuição:** _…_
+- **Referência 1:**  DOWNEY, Allen B. Pense em Python: pense como um cientista da computação. 2ª edição, capítulos 1 — A jornada do programa, 2 — Variáveis, expressões e instruções, e 5 — Condicionais e recursividade
+— **Contribuição:** Durante meus estudos e pesquisas, encontrei esse livro, na qual a leitura permite aprofundar a maneira de organizar um problema em etapas e transformar uma solução em instruções. Também aborda o uso de variáveis, expressões e estruturas condicionais. Esses conteúdos estão relacionados ao desenvolvimento do MARÉ, pois ajudam a compreender como organizar as informações das reservas e definir as ações que o programa deve executar de acordo com cada situação.
+- **Referência 2:** PYTHON SOFTWARE FOUNDATION. Documentação oficial do Python — Funções embutidas e tipos embutidos. Funções embutidas · Tipos embutidos 
+— **Contribuição:** A documentação ajuda a consultar o funcionamento de recursos utilizados na programação, como input(), print() e int(), além dos diferentes tipos de dados do Python. Um ponto importante é compreender que o input() recebe as informações como texto, mesmo quando o usuário digita um número, e isso ajuda a entender melhor a diferença entre textos e números, o uso de aspas e como as informações podem ser utilizadas no programa.
 
 **2b. Hipótese revisada — o que mudou em relação ao Campo 01 e por quê:**
 
-> _…_
+> Depois do aprofundamento, continuei considerando que algumas falhas do CRUD podem estar relacionadas à organização da lógica e à escrita dos comandos em Python, como mencionei na hipótese inicial. A pesquisa também ajudou a perceber a importância de organizar um problema em etapas, utilizar corretamente as variáveis e compreender as condições e os tipos de dados envolvidos. Com isso, minha hipótese inicial foi ampliada, pois passei a considerar que esses conhecimentos também podem influenciar o funcionamento do sistema.
 
 **2c. Dimensionamento inicial de recursos (recurso, quantidade estimada, justificativa técnica — mínimo 3 itens):**
 
 | RECURSO / MATERIAL / INSUMO | QUANTIDADE ESTIMADA | JUSTIFICATIVA TÉCNICA |
 |---|---|---|
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ |
+| Referências de estudo | 2 | Consultar o livro e a documentação oficial para aprofundar os conhecimentos sobre lógica, condicionais, variáveis e tipos de dados |
+| Tempo de estudo | 2 horas | Reservar um período para leitura, pesquisa e revisão dos conceitos estudados |
+| Casos de teste para entrada de dados (4 cenários: texto válido, número inteiro, entrada vazia e tipo inválido no input()) | 4 | Praticar a organização de instruções, a utilização de variáveis, os tipos de dados e as estruturas condicionais |
 
 #### Registro do Ciclo 02 — 19/08
 1. **Desafio do ciclo (em 1 frase):** _…_
