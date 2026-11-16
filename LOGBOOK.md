@@ -107,7 +107,7 @@ Atualize a cada commit (troque ⬜ por ✅).
 | Grupo | Item | Prazo | Preenchido | Commit |
 |:--:|---|---|:--:|:--:|
 | 1 | Identificação | 16/11 | ✅ | ✅ |
-| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ⬜ | ⬜ |
+| 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ✅ | ✅ |
 | 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
 | 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
 | 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
@@ -292,13 +292,13 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 </details>
 
 #### Registro do Ciclo 04 — 02/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender como documentar uma aplicação e iniciar a construção do CRUD, utilizando variáveis e estruturas condicionais para organizar sua lógica de funcionamento
+2. **O que implementei (commits / arquivos / links):** Durante a aula, trabalhamos na documentação da aplicação a partir de três questões: onde o aplicativo armazenaria os dados, como tomaria decisões durante sua execução e como seu fluxo poderia ser representado. Também começamos a desenvolver a primeira aplicação do CRUD, utilizando variáveis para armazenar informações e estruturas condicionais para definir o comportamento do programa
+3. **Objeto(s) de conhecimento mobilizado(s):** Declaração e utilização de variáveis, tipos de dados, estruturas condicionais (if, elif e else), fluxo de execução e documentação de software. Esses conhecimentos foram utilizados para começar a estruturar a lógica da aplicação
+4. **Desvio ou erro encontrado + causa técnica:** Não me recordo de um erro específico que tenha impedido a execução da atividade. Nesse primeiro contato com a aplicação, o desafio foi compreender como transformar as ideias do planejamento em instruções de código e organizar as decisões que o programa deveria executar
+5. **Decisão de ajuste + fonte:** Utilizei variáveis para armazenar as informações e estruturas condicionais para direcionar a execução do programa conforme as situações definidas. Essa foi uma forma inicial de construir a lógica da aplicação, relacionando o conteúdo estudado ao funcionamento do MARÉ. Fonte: atividade prática e explicação do professor em aula, em 02/09
+6. **Feedback recebido e o que mudei:** Não me recordo de um feedback específico recebido neste ciclo
+7. **Próximo passo:** Continuar praticando a utilização de variáveis e estruturas condicionais, buscando compreender melhor como organizar a lógica do programa e desenvolver as funcionalidades do CRUD
 
 ---
 
