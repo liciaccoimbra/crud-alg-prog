@@ -374,6 +374,8 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 
 > _…_
 
+As questões do Checkpoint Conceitual não foram disponibilizadas pelo professor até o momento. Por esse motivo, o campo não foi preenchido.
+
 <details>
 <summary>🔒 Uso do professor — critérios de avaliação do Checkpoint</summary>
 
@@ -391,19 +393,18 @@ Cada ciclo tem sua própria seção abaixo, já com o modelo. Se precisar de esp
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59*
 
 **3a. O que descobri que mudou minha compreensão do problema (mínimo 2 achados, com objeto de conhecimento associado):**
-1. _…_ — *Objeto de conhecimento:* _…_
-2. _…_ — *Objeto de conhecimento:* _…_
-3. _…_ *(opcional)*
+1. Percebi que utilizar variáveis separadas para armazenar cada reserva não seria uma forma prática de organizar os dados do sistema. O uso de listas permitiu reunir vários agendamentos em uma única estrutura, facilitando a organização, a consulta e a manipulação dos registros. — *Objeto de conhecimento:* Estruturas de dados (listas).
+2. Entendi que os dicionários permitem organizar as informações de cada reserva por meio de pares de chave e valor. Desse modo, dados como identificador, nome do cliente, modalidade, data e horário podem ser armazenados e acessados individualmente, tornando a estrutura do sistema mais organizada. — *Objeto de conhecimento:* Dicionários e pares chave-valor.
+3. Identifiquei que não basta permitir o preenchimento das informações: também é necessário verificar se os campos obrigatórios foram preenchidos antes de cadastrar uma reserva. Essa validação evita registros incompletos e contribui para a confiabilidade do sistema. — *Objeto de conhecimento:* Estruturas condicionais e validação de dados.
 
 **3b. Desvio em relação ao Campo 02 (ao menos 1 — causa técnica):**
-- **Desvio:** _…_
-- **Causa técnica:** _…_
+- **Desvio:** O planejamento inicial previa quatro cenários de teste para a entrada de dados: texto válido, número inteiro, entrada vazia e tipo inválido no input(). Entretanto, durante a implementação do MARÉ, concentrei as verificações no preenchimento dos campos obrigatórios e na escolha da modalidade, sem contemplar todos os cenários de teste inicialmente planejados.
+- **Causa técnica:** A lógica de validação implementada priorizou a verificação da presença das informações e da modalidade escolhida. O tratamento de entradas incompatíveis com os tipos esperados ainda não foi desenvolvido de maneira abrangente.
 
 **3c. Decisão de ajuste (ao menos 1) com justificativa e fonte:**
-- **Decisão:** _…_
-- **Fonte:** _…_
-
-**Objeto de conhecimento mobilizado nesta decisão:** _…_
+- **Decisão:** Organizar os agendamentos em uma lista de dicionários, utilizando uma estrutura para armazenar várias reservas e outra para agrupar as informações de cada reserva. Também foram utilizadas estruturas condicionais para verificar o preenchimento dos campos obrigatórios antes de realizar o cadastro. Essa organização facilita o armazenamento e o acesso às informações de cada reserva, enquanto as condições permitem verificar os dados informados antes de concluir o cadastro.
+- **Fonte:** Python Software Foundation. The Python Tutorial. Capítulo 5 — Data Structures (Estruturas de Dados) e capítulo 4 — More Control Flow Tools (Estruturas de Controle de Fluxo).
+**Objeto de conhecimento mobilizado nesta decisão:** Estruturas de dados (listas e dicionários), estruturas condicionais e validação de entrada.
 
 ### 🧩 CAMPO 04 — Interação com IA
 *AV Qualis — Grupo 2 | Sábado 21/11, 23h59 | OBRIGATÓRIO*
