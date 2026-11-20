@@ -449,13 +449,24 @@ Fonte de verificação: Código-fonte do MARÉ — arquivo crud_agendamento_quad
 </details>
 
 #### Registro do Ciclo 05 — 09/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender como funcionam as condicionais aninhadas e os operadores lógicos em Python, aprendendo a combinar diferentes condições para controlar o fluxo de execução de um programa.
+2. **O que implementei (commits / arquivos / links):** Durante a aula, acompanhei a explicação do professor sobre condicionais aninhadas e operadores lógicos. Não desenvolvi uma nova funcionalidade nesse encontro, mas, ao relacionar o conteúdo com o MARÉ, percebi que já utilizava condicionais aninhadas na estrutura inicial do cadastro de reservas.
+3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas condicionais aninhadas (if dentro de outro if), operadores lógicos (and, or e not), operadores relacionais, expressões booleanas e controle do fluxo de execução.
+4. **Desvio ou erro encontrado + causa técnica:** Não me recordo de um erro específico durante essa aula. Ao analisar a estrutura inicial do MARÉ, percebi que a utilização de vários níveis de condicionais exige atenção à organização e à indentação do código, pois cada condição interna depende da condição anterior para ser executada.
+5. **Decisão de ajuste + fonte:** Ao revisar o código do MARÉ, compreendi melhor a escolha de utilizar condicionais aninhadas no cadastro das reservas. Primeiro, o programa verifica se o usuário escolheu a opção de cadastro; depois, verifica a modalidade e, em seguida, o preenchimento dos campos obrigatórios. Também identifiquei a utilização do operador lógico and para verificar se o nome do cliente, a data e o horário foram preenchidos simultaneamente. Essa combinação é adequada porque o cadastro só deve prosseguir quando todas essas condições forem verdadeiras.
+
+Fonte: Explicação do professor durante a aula de 09/09 e código-fonte do projeto MARÉ (crud_agendamento_quadras.py).
+
+Caso de teste complementar — verificação do operador lógico and:
+
+Entrada: Nome = Ana; Data = 20/11/2026; Horário = 18:00.
+
+Resultado esperado: O cadastro deve ser permitido, pois os três campos estão preenchidos.
+
+Resultado obtido: Na simulação manual da condição lógica, todas as verificações são verdadeiras, permitindo que o fluxo alcance o bloco de cadastro.
+- Objeto de conhecimento: Condicionais aninhadas, operadores lógicos e validação de entrada.
+6. **Feedback recebido e o que mudei:** Não me recordo de um feedback individual específico recebido neste ciclo. A explicação do conteúdo ajudou a compreender melhor as estruturas condicionais que já estavam presentes no código do MARÉ.
+7. **Próximo passo:** Continuar praticando condicionais aninhadas e operadores lógicos, buscando compreender melhor como combinar diferentes condições e aplicar esses conhecimentos às regras de cadastro e validação das reservas do MARÉ.
 
 ## 🟠 CICLO 06 — 30/09 — Devolutiva da P1 + repetição: `for`, `while`, `break`, `continue`
 
