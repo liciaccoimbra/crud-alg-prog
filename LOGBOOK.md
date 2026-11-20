@@ -411,23 +411,30 @@ As questões do Checkpoint Conceitual não foram disponibilizadas pelo professor
 
 > **Obrigatório e avaliado. Print sem análise crítica = devolução imediata. Reproduzir a IA sem questionamento = reprovado.**
 
-**4a. Ferramenta:** _…_  **Data:** _DD/MM/AAAA_
+**4a. Ferramenta:** CHATGPT **Data:** 20/11/2026
+**Evidências da interação:**
+
+- [Pergunta enviada à IA](evidencias/campo-04-pergunta.png)
+- [Resposta da IA — Parte 1](evidencias/campo-04-resposta-1.png)
+- [Resposta da IA — Parte 2](evidencias/campo-04-resposta-2.png)
 
 **4b. Pergunta formulada (transcrita integralmente):**
 
-> _…_
+> Analise o código atual do meu CRUD MARÉ, um sistema de agendamento de quadras de vôlei e futevôlei. Os agendamentos são armazenados em uma lista chamada agendamentos, e cada reserva é representada por um dicionário. No cadastro, o programa verifica se a modalidade escolhida é válida e se o nome do cliente, a data e o horário não estão vazios. Essa validação é suficiente para garantir que os dados estejam corretos? Identifique o que o código já valida e quais limitações ainda existem, considerando também a atualização de uma reserva. Não reescreva o código; explique de forma simples e aponte os trechos que justificam sua análise.
 
 **4c. Resposta da IA (resumida em parágrafo):**
 
-> _…_
+> A IA analisou as etapas de cadastro e atualização das reservas e identificou que o sistema já possui algumas validações, como a escolha de uma modalidade válida e o preenchimento dos campos obrigatórios durante o cadastro. Entretanto, essas verificações ainda são limitadas, pois não conferem se a data e o horário estão em formatos válidos, nem impedem o preenchimento do nome apenas com espaços em branco. Na atualização, a IA identificou que a modalidade possui validação, mas os campos de nome, data e horário recebem novos valores sem as mesmas verificações utilizadas no cadastro. Dessa forma, concluiu que as validações precisam ser aprimoradas para garantir maior consistência nas informações armazenadas.
 
 **4d. O que aceitei — com referência ao objeto de conhecimento do componente:**
 
-> _…_
+> Aceitei a análise de que as validações implementadas no MARÉ são parciais e não acontecem da mesma maneira nas operações de cadastro e atualização. Ao conferir o código, percebi que as estruturas condicionais e o operador lógico and são utilizados para verificar o preenchimento dos campos durante o cadastro. Também identifiquei que, na atualização, a modalidade possui verificações específicas, enquanto os demais campos recebem os novos valores diretamente. Essa análise me ajudou a compreender melhor a importância de aplicar validações consistentes nas diferentes operações do CRUD, evitando que informações incompletas ou inadequadas sejam armazenadas.
 
 **4e. O que questionei ou descartei — com argumento técnico ou fonte:**
 
-> _…_
+> Questionei a observação da IA sobre a ausência de verificação de conflitos de horário, pois entendo que essa situação depende também das regras de funcionamento estabelecidas para o sistema. Embora o código atual não verifique se duas reservas ocupam o mesmo horário, considero necessário confirmar se essa restrição faz parte dos requisitos do MARÉ antes de classificá-la como uma falha. Também comparei as observações da IA com o código-fonte e confirmei que o cadastro verifica se os campos são diferentes de uma string vazia (""), mas não trata entradas preenchidas somente com espaços. Portanto, percebi que essa condição, embora impeça o cadastro de campos totalmente vazios, ainda permite algumas entradas inadequadas. Concluí que a resposta da IA foi útil para identificar limitações da implementação, mas que suas sugestões precisam ser analisadas considerando as regras do sistema e o comportamento real do código. 
+
+Fonte de verificação: Código-fonte do MARÉ — arquivo crud_agendamento_quadras.py, especialmente os trechos de cadastro e atualização de reservas.
 
 ## 🟠 CICLO 05 — 09/09 — Condicionais aninhadas e operadores lógicos
 
