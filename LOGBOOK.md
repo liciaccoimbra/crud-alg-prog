@@ -480,13 +480,15 @@ Resultado obtido: Na simulação manual da condição lógica, todas as verifica
 </details>
 
 #### Registro do Ciclo 06 — 30/09
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Entender como os programas armazenam e manipulam informações, conhecendo as estruturas de dados do tipo vetor e lista e suas diferenças em relação à organização e ao armazenamento na memória.
+2. **O que implementei (commits / arquivos / links):** Durante a aula, acompanhei a explicação do professor sobre estruturas de dados, armazenamento na memória RAM, vetores e listas. Também foram apresentados conceitos relacionados à organização dos elementos, à utilização de listas em Python e às funções len() e type(). Não desenvolvi uma nova funcionalidade no MARÉ durante esse encontro.
+3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas de dados, vetores, listas, armazenamento e organização de dados na memória, estruturas estáticas e dinâmicas, além das funções embutidas len() e type().
+4. **Desvio ou erro encontrado + causa técnica:** Não me recordo de um erro específico de execução neste ciclo, pois a aula foi voltada à explicação dos conceitos. Um ponto importante apresentado foi a diferença entre estruturas estáticas e dinâmicas, considerando a organização dos elementos na memória e a possibilidade de alteração do tamanho de uma lista.
+5. **Decisão de ajuste + fonte:** A partir do conteúdo estudado, compreendi melhor a importância de utilizar listas para organizar os agendamentos do MARÉ. Como o sistema pode armazenar várias reservas, essa estrutura permite reunir diferentes registros e trabalhar com uma quantidade variável de elementos, sem depender de uma quantidade fixa previamente definida. Também conheci a função len(), que permite consultar a quantidade de elementos armazenados em uma lista, e type(), que identifica o tipo de dado utilizado.
+
+Fonte: Explicação do professor durante a aula de 30/09 e anotações pessoais sobre estruturas de dados, vetores e listas.
+6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** Não houve devolutiva individual da P1 neste encontro. A aula foi direcionada à explicação de estruturas de dados, listas e vetores, contribuindo para ampliar minha compreensão sobre como os programas armazenam e manipulam informações.
+7. **Próximo passo:** Continuar estudando estruturas de dados e praticando a utilização de listas em Python, compreendendo melhor como armazenar, consultar e manipular os registros do MARÉ.
 
 ## 🟠 CICLO 07 — 07/10 — Listas: armazenamento e iteração
 
