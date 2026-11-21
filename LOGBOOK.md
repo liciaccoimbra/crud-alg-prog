@@ -465,6 +465,7 @@ Resultado esperado: O cadastro deve ser permitido, pois os três campos estão p
 
 Resultado obtido: Na simulação manual da condição lógica, todas as verificações são verdadeiras, permitindo que o fluxo alcance o bloco de cadastro.
 - Objeto de conhecimento: Condicionais aninhadas, operadores lógicos e validação de entrada.
+
 6. **Feedback recebido e o que mudei:** Não me recordo de um feedback individual específico recebido neste ciclo. A explicação do conteúdo ajudou a compreender melhor as estruturas condicionais que já estavam presentes no código do MARÉ.
 7. **Próximo passo:** Continuar praticando condicionais aninhadas e operadores lógicos, buscando compreender melhor como combinar diferentes condições e aplicar esses conhecimentos às regras de cadastro e validação das reservas do MARÉ.
 
@@ -487,6 +488,7 @@ Resultado obtido: Na simulação manual da condição lógica, todas as verifica
 5. **Decisão de ajuste + fonte:** A partir do conteúdo estudado, compreendi melhor a importância de utilizar listas para organizar os agendamentos do MARÉ. Como o sistema pode armazenar várias reservas, essa estrutura permite reunir diferentes registros e trabalhar com uma quantidade variável de elementos, sem depender de uma quantidade fixa previamente definida. Também conheci a função len(), que permite consultar a quantidade de elementos armazenados em uma lista, e type(), que identifica o tipo de dado utilizado.
 
 Fonte: Explicação do professor durante a aula de 30/09 e anotações pessoais sobre estruturas de dados, vetores e listas.
+
 6. **Feedback recebido (inclui devolutiva da P1) e o que mudei:** Não houve devolutiva individual da P1 neste encontro. A aula foi direcionada à explicação de estruturas de dados, listas e vetores, contribuindo para ampliar minha compreensão sobre como os programas armazenam e manipulam informações.
 7. **Próximo passo:** Continuar estudando estruturas de dados e praticando a utilização de listas em Python, compreendendo melhor como armazenar, consultar e manipular os registros do MARÉ.
 
@@ -502,13 +504,16 @@ Fonte: Explicação do professor durante a aula de 30/09 e anotações pessoais 
 </details>
 
 #### Registro do Ciclo 07 — 07/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender como utilizar listas em Python para armazenar, organizar e manipular informações, conhecendo diferentes operações e formas de percorrer seus elementos.
+2. **O que implementei (commits / arquivos / links):** Durante a aula, acompanhei a explicação sobre a continuação do conteúdo de listas e suas operações. Foram apresentados métodos como append(), insert(), extend(), pop(), remove() e count(), além de conceitos de ordenação, list comprehension, slicing, matrizes, dicionários, mapas, pilhas e filas. Também foram discutidas as etapas de desenvolvimento e evolução do CRUD.
+3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas de dados dinâmicas, listas, iteração, operações de inserção e remoção de elementos, ordenação, concatenação, fatiamento e list comprehension. No MARÉ, utilizei principalmente os métodos append() e remove(). O append() permite adicionar uma nova reserva à lista agendamentos, enquanto o remove() permite excluir uma reserva pelo seu valor.
+4. **Desvio ou erro encontrado + causa técnica:** Durante o desenvolvimento do MARÉ, tive dificuldade em compreender como localizar e remover uma reserva específica da lista de agendamentos. A operação exigia percorrer os registros, comparar o identificador da reserva e utilizar o remove() para excluir o elemento correspondente. A dificuldade estava em compreender como realizar a remoção durante a iteração da lista e controlar a continuidade do laço. Para evitar que o programa continuasse percorrendo a lista após a exclusão, foi utilizado o comando break.
+5. **Decisão de ajuste + fonte:** Durante o desenvolvimento do MARÉ, utilizei uma lista para armazenar os agendamentos, pois essa estrutura permite reunir vários registros e adicionar ou remover elementos conforme a necessidade do sistema. Para realizar o cadastro de uma reserva, utilizei o método append(), que adiciona um novo elemento ao final da lista. Já para cancelar uma reserva, utilizei o método remove(), após localizar o agendamento correspondente pelo identificador. Essa organização permite manipular os registros sem precisar criar variáveis separadas para cada reserva.
+
+Fonte: Explicação do professor e anotações da aula de 07/10; Python Software Foundation — documentação oficial, capítulo 5: Data Structures, seção 5.1 — More on Lists (https://docs.python.org/3/tutorial/datastructures.html).
+
+6. **Feedback recebido e o que mudei:** Não recebi um feedback específico do professor neste ciclo. As atividades e explicações da aula contribuíram para ampliar minha compreensão sobre a utilização de listas e suas operações no desenvolvimento do MARÉ.
+7. **Próximo passo:** Continuar praticando as operações com listas, aprofundando a compreensão sobre inserção, remoção e iteração dos elementos, além de melhorar a organização dos agendamentos e a manipulação dos registros no MARÉ.
 
 ## 🟠 CICLO 08 — 14/10 — Busca/consulta e introdução a dicionários e matrizes
 
