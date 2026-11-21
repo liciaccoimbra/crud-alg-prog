@@ -110,10 +110,10 @@ Atualize a cada commit (troque ⬜ por ✅).
 | 1 | Registros dos Ciclos 01, 02, 03 e 04 | 16/11 | ✅ | ✅ |
 | 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
 | 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
-| 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ⬜ | ⬜ |
+| 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ✅ | ✅ |
 | 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
-| 2 | Campo 03 — Execução e desvios | 21/11 | ⬜ | ⬜ |
-| 2 | Campo 04 — Interação com IA | 21/11 | ⬜ | ⬜ |
+| 2 | Campo 03 — Execução e desvios | 21/11 | ✅ | ✅ |
+| 2 | Campo 04 — Interação com IA | 21/11 | ✅ | ✅ |
 | 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ⬜ | ⬜ |
 | 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ⬜ | ⬜ |
 | 3 | Campo 06 — Próximos passos | 26/11 | ⬜ | ⬜ |
@@ -528,13 +528,16 @@ Fonte: Explicação do professor e anotações da aula de 07/10; Python Software
 </details>
 
 #### Registro do Ciclo 08 — 14/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Entender como funcionam os algoritmos de busca e ordenação, além de aprender a utilizar dicionários para organizar informações e facilitar a localização de dados em Python.
+2. **O que implementei (commits / arquivos / links):** DDurante a aula, acompanhei a explicação sobre algoritmos de busca linear, binária e por interpolação, além de diferentes métodos de ordenação, como insertion sort, bubble sort, quick sort e merge sort. Também foram apresentados os dicionários, suas características, o acesso por chaves e operações como get(), len() e count(). Após a aula, apliquei o conteúdo no MARÉ, modificando a organização dos agendamentos para utilizar dicionários, nos quais cada reserva passou a armazenar suas informações por meio de pares de chave e valor.
+3. **Objeto(s) de conhecimento mobilizado(s):** Algoritmos de busca e ordenação, estruturas de dados, dicionários, pares chave-valor, chaves únicas, acesso a elementos, complexidade de algoritmos, notação Big O e controle de fluxo com flag e break.
+4. **Desvio ou erro encontrado + causa técnica:** Não me recordo de uma busca específica que tenha falhado durante esse ciclo. Entretanto, ao relacionar o conteúdo da aula com o MARÉ, percebi a importância de comparar corretamente o identificador informado pelo usuário com o ID armazenado no dicionário de cada reserva. Como o input() recebe os dados como texto, é necessário considerar os tipos de dados envolvidos na comparação. Outro cuidado é tratar a situação em que o identificador informado não corresponde a nenhuma reserva cadastrada, permitindo que o programa informe que o registro não foi encontrado.
+5. **Decisão de ajuste + fonte:** Após estudar os dicionários, decidi utilizá-los para organizar as informações individuais de cada reserva no MARÉ. Em vez de manter os dados de cada agendamento separados, passei a agrupá-los em um dicionário, utilizando chaves para identificar informações como ID, nome do cliente, modalidade, data e horário. Esses dicionários são armazenados em uma lista chamada agendamentos, permitindo reunir várias reservas e acessar suas informações individualmente. Essa decisão tornou a organização dos dados mais estruturada e facilitou a localização e a manipulação das informações durante as operações do CRUD.
+
+Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/2026; Python Software Foundation — documentação oficial, capítulo 5: Data Structures, seção 5.5 — Dictionaries (https://docs.python.org/3/tutorial/datastructures.html#dictionaries).
+
+6. **Feedback recebido e o que mudei:** Não recebi um feedback específico do professor neste ciclo. Após a aula, utilizei o conteúdo apresentado para aprimorar a organização dos agendamentos no MARÉ, passando a utilizar dicionários para agrupar as informações de cada reserva.
+7. **Próximo passo:** Continuar praticando a utilização de dicionários e algoritmos de busca, aprofundando a compreensão sobre o acesso por chaves e a localização de registros. Também pretendo aprimorar a organização dos agendamentos e as consultas realizadas no MARÉ.
 
 ---
 
