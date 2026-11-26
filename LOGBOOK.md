@@ -693,22 +693,30 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 
 **6a. Decisão técnica que defendo com plena autonomia — o que aprendi que é exclusivamente meu e não consigo transferir para nenhum colega:**
 
-> _…_
+> Uma decisão técnica que consigo explicar com autonomia no desenvolvimento do MARÉ foi organizar os agendamentos em uma lista de dicionários. Escolhi essa estrutura porque precisava armazenar várias reservas, cada uma com suas próprias informações, como ID, nome do cliente, modalidade, data e horário. Compreendi que a lista permite reunir e manipular diferentes registros, enquanto os dicionários permitem acessar cada informação por meio de suas chaves. Essa organização facilitou as operações de cadastro, consulta, atualização e exclusão do sistema.
 
 **6b. Lacuna técnica e plano de ação para saná-la:**
 
-- **Lacuna:** _…_
-- **Plano de ação (passos e datas):** _…_
+- **Lacuna:** Ainda preciso desenvolver melhor minha capacidade de organizar a lógica dos algoritmos, principalmente na combinação de diferentes estruturas e na aplicação de funções ao meu próprio código. Embora tenha estudado funções, parâmetros e retornos, ainda não consegui aplicar a modularização ao MARÉ. Também preciso aprofundar a compreensão sobre recursividade, pois não apliquei esse conceito em um projeto prático.
+- **Plano de ação (passos e datas):** 
+
+13/11 — Revisar a definição e a chamada de funções, praticando parâmetros e retornos com exercícios simples.
+
+14/11 — Praticar a separação de operações de um programa em funções menores, compreendendo a responsabilidade de cada uma.
+
+16/11 — Retomar o conceito de recursividade, praticando chamadas recursivas e condições de parada.
+
+17/11 — Revisar os conteúdos e desenvolver pequenos exercícios que combinem laços, condicionais, listas e funções.
 
 **6c. Pergunta que a banca pode fazer — com resposta fundamentada (mínimo 5 linhas):**
 
-- **Pergunta:** _…_
+- **Pergunta:** Como funciona a lógica utilizada para localizar uma reserva pelo ID nas operações de atualização e exclusão do MARÉ? Qual é a função do laço de repetição e da variável booleana nesse processo?
 - **Resposta:**
 
-> _…_
+> No MARÉ, utilizo um laço de repetição for para percorrer a lista de agendamentos e verificar o identificador de cada reserva. Para isso, comparo o ID armazenado no dicionário com o ID informado pelo usuário. Também utilizo uma variável booleana chamada reserva_encontrada, que começa com o valor False e passa para True quando encontro o registro correspondente. Quando a reserva é localizada, o programa executa a operação solicitada e utiliza o break para encerrar a busca. Caso nenhum registro corresponda ao identificador informado, a variável permanece False e o sistema apresenta uma mensagem avisando que a reserva não foi encontrada. Dessa forma, consigo controlar o fluxo de execução e evitar que o programa tente alterar ou excluir um registro diferente daquele selecionado pelo usuário.
 
-**Objeto de conhecimento mobilizado:** _…_
-**Fonte:** _…_
+**Objeto de conhecimento mobilizado:** Listas, dicionários, laços de repetição, estruturas condicionais e variáveis booleanas.
+**Fonte:** Código-fonte do MARÉ (crud_agendamento_quadras.py) e conteúdos estudados nas aulas sobre estruturas de dados, busca e estruturas de repetição.
 
 ## 🔵 CICLO 12 — 11/11 — Refatoração e qualidade de código
 
