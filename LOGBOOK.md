@@ -574,13 +574,13 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 </details>
 
 #### Registro do Ciclo 09 — 21/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Implementar as operações de atualização e exclusão de agendamentos, completando as funcionalidades do CRUD no sistema MARÉ.
+2. **O que implementei (commits / arquivos / links):** Implementei as funcionalidades de atualização e cancelamento de reservas no sistema MARÉ, utilizando Python. Também desenvolvi a busca de agendamentos pelo ID, permitindo localizar um registro específico antes de realizar uma alteração ou exclusão.
+3. **Objeto(s) de conhecimento mobilizado(s):** Listas, dicionários, estruturas condicionais, laços de repetição (for), variáveis booleanas, identificadores e manipulação de elementos de uma lista.
+4. **Desvio ou erro encontrado + causa técnica:** Uma das dificuldades durante o desenvolvimento foi organizar a sequência lógica necessária para realizar as operações de atualização e exclusão. Embora compreendesse a função de cada estrutura individualmente, tive dificuldade em combiná-las para percorrer a lista, localizar o registro pelo ID e executar a ação correspondente.
+5. **Decisão de ajuste + fonte:** Para organizar essa lógica, utilizei um laço de repetição for para percorrer os registros, uma comparação para verificar o ID informado e uma variável booleana (reserva_encontrada) para controlar se a reserva havia sido localizada. Essa decisão foi fundamentada nos conteúdos de listas, estruturas condicionais, laços de repetição e variáveis booleanas trabalhados na disciplina.
+6. **Feedback recebido e o que mudei:** Não recebi um feedback específico do professor ou de colegas durante esse ciclo. Os ajustes realizados foram resultado da minha própria análise das dificuldades encontradas durante o desenvolvimento, principalmente em relação à organização da lógica das operações de atualização e exclusão.
+7. **Próximo passo:** Continuar desenvolvendo minha capacidade de organizar a lógica dos algoritmos e avançar no estudo de funções, buscando dividir o código em partes menores e tornar sua estrutura mais organizada.
 
 ### 🧩 CAMPO 05 — Registro de Revisão por Pares
 *Adaptação do **Logbook do Time** (Apêndice C) para o CRUD individual. Documento atualizado pelo **revisor**. Cada decisão técnica relevante deve ter associado o objeto de conhecimento correspondente.*
@@ -593,9 +593,9 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 
 | | |
 |---|---|
-| **Autor do CRUD revisado** | _nome_ |
+| **Autor do CRUD revisado** | Júlia Ferreira |
 | **Repositório revisado** | _link_ |
-| **Revisor** | _seu nome_ |
+| **Revisor** | Lícia Coimbra |
 | **Unidade curricular / Semestre** | Algoritmos e Programação · 2026.2 |
 | **Ciclo / data** | _Ciclo 09 · 21/10_ |
 
@@ -603,37 +603,36 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 
 | ETAPA DO PROCESSO | RESPONSÁVEL | PRAZO | STATUS | DESVIO / JUSTIFICATIVA |
 |---|---|---|---|---|
-| 1. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 2. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 3. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 4. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 5. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
+| 1. Acessar o repositório e analisar os arquivos | Revisor | _05/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | Sem dificuldades de acesso. |
+| 2. Executar o CRUD revisado | Revisor | _05/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | O sistema foi executado corretamente. |
+| 3. Testar as operações do CRUD | Revisor | _05/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | Foram identificados pequenos pontos que precisavam de ajustes. |
+| 4. Analisar o código e registrar observações | Revisor | _05/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | As observações foram discutidas com a autora. |
+| 5. Realizar os ajustes e verificar o funcionamento | Revisor / Autor | _05/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | Os pontos identificados foram corrigidos e o funcionamento ficou adequado. |
 
 **5b. ANÁLISE DE INSUMOS E CRITÉRIOS DE QUALIDADE:**
 
 | RECURSO | QTDE PLANEJADA | QTDE UTILIZADA | VARIAÇÃO | JUSTIFICATIVA TÉCNICA |
 |---|---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
+| Repositório e código-fonte | 1 | 1 | 0 | Utilizado para analisar a estrutura do projeto. |
+| Operações do CRUD | 4 | 4 | 0 | Utilizadas para verificar cadastro, consulta, atualização e exclusão. |
+| Ambiente de execução | 1 | 1 | 0 | Utilizado para executar e testar o sistema. |
 
 **5c. CONTROLE DE QUALIDADE:**
-- **Critério ou norma técnica:** _…_
-- **A solução atende?** ☐ Sim ☐ Parcialmente ☐ Não
+- **Critério ou norma técnica:** Verificar se as operações de cadastro, consulta, atualização e exclusão funcionam corretamente e se as informações são manipuladas conforme o comportamento esperado do sistema.
+- **A solução atende?** ✅ Sim ☐ Parcialmente ☐ Não
 
 **5d. GESTÃO DE RISCOS:**
-- **Risco:** _…_
-- **Estratégia de mitigação:** _…_
+- **Risco:** Pequenos erros na implementação poderiam comprometer o funcionamento de alguma operação ou passar despercebidos durante uma análise superficial.
+- **Estratégia de mitigação:** Executar o sistema, testar suas funcionalidades, registrar os pontos identificados e acompanhar as correções junto à autora.
 
 **5e. RASTREABILIDADE DAS DECISÕES TÉCNICAS — COM VÍNCULO AO CONTEÚDO:**
 
 | DATA | DECISÃO TÉCNICA | RESP. | OBJETO DE CONHECIMENTO MOBILIZADO | FUNDAMENTAÇÃO / REFERÊNCIA |
 |---|---|---|---|---|
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
+| _05/11/26_ | Executar o sistema antes de avaliar seu funcionamento, verificando o comportamento das funcionalidades. | Revisor | Testes de software e operações CRUD | Execução prática do código-fonte do projeto revisado. |
+| _05/11/26_ | Identificar e discutir pequenos pontos que precisavam de ajustes durante a execução do sistema. | Revisor / Autora | Depuração e análise de código | Observação do comportamento do programa durante os testes. |
+| _05/11/26_ | Realizar correções nos pontos identificados e verificar novamente o funcionamento do sistema. | Revisor / Autora | Correção de erros e validação funcional | Código-fonte e repetição dos testes após os ajustes. |
+
 
 > **IMPORTANTE:** Decisão registrada sem objeto de conhecimento associado e sem referência é considerada **não rastreável** e não conta para a avaliação formativa. O vínculo entre processo e conteúdo é obrigatório em todas as decisões relevantes.
 
