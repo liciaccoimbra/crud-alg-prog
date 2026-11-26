@@ -734,13 +734,18 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 </details>
 
 #### Registro do Ciclo 12 — 11/11
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Melhorar a organização do código do MARÉ, aplicando conceitos de estruturas de dados e buscando tornar a manipulação dos agendamentos mais clara e organizada.
+2. **O que implementei (commits / arquivos / links):** Revisei a organização dos dados do MARÉ, utilizando listas para armazenar os agendamentos e dicionários para reunir as informações de cada reserva. Essa organização permite trabalhar com vários registros e acessar seus dados por meio de chaves, como ID, nome do cliente, modalidade, data e horário.
+3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas de dados, listas, dicionários, pares chave-valor, iteração e manipulação de elementos com os métodos append() e remove().
+4. **Desvio ou erro encontrado + causa técnica:** Durante a organização do código, percebi a importância de estruturar corretamente as informações para facilitar sua localização e manipulação. O uso de variáveis separadas para cada informação não seria adequado para trabalhar com vários agendamentos, tornando necessário utilizar estruturas que permitissem agrupar e organizar os registros.
+5. **Decisão de ajuste + fonte:** Utilizei uma lista chamada agendamentos para armazenar as reservas e dicionários para reunir as informações de cada registro. Essa decisão permite adicionar, consultar, atualizar e remover agendamentos de maneira mais organizada. Os dicionários facilitam o acesso às informações por meio de suas chaves, enquanto a lista permite armazenar vários registros.
+
+ Fonte: Python Software Foundation — documentação oficial, capítulo 5: Data Structures, seções 5.1 — More on Lists e 5.5 — Dictionaries; código-fonte do MARÉ.
+
+ Objeto de conhecimento mobilizado: Estruturas de dados (listas e dicionários) e manipulação de registros.
+
+6. **Feedback recebido e o que mudei:** Recebi feedback da Júlia Ferreira durante a revisão por pares do projeto. A troca de observações contribuiu para refletir sobre a organização dos dados e a estrutura do código. A partir dessa interação, pude revisar minha implementação e reforçar a utilização de listas e dicionários para organizar e manipular os agendamentos.
+7. **Próximo passo:** Continuar aprimorando a organização e a qualidade do código, praticando a utilização de funções e buscando tornar as operações do sistema mais simples de compreender e manter.
 
 ### 🧩 CAMPO 05 — Registro de Revisão por Pares (revisão nº 2)
 
