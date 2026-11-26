@@ -751,46 +751,45 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 
 | | |
 |---|---|
-| **Autor do CRUD revisado** | _nome_ |
+| **Autor do CRUD revisado** | _Júlia Ferreira_ |
 | **Repositório revisado** | _link_ |
-| **Revisor** | _seu nome_ |
+| **Revisor** | _Lícia Coimbra_ |
 | **Ciclo / data** | _Ciclo 12 · 11/11_ |
 
 **5a. AVANÇO DO PROCESSO DE REVISÃO:**
 
 | ETAPA DO PROCESSO | RESPONSÁVEL | PRAZO | STATUS | DESVIO / JUSTIFICATIVA |
 |---|---|---|---|---|
-| 1. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 2. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 3. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 4. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
-| 5. _…_ | Revisor / Autor | _DD/MM_ | ☐ Concluída ☐ Em andamento ☐ Com desvio | _…_ |
+| 1. Acessar o repositório e analisar os arquivos do projeto | Revisor | _11/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | O acesso ao código ocorreu normalmente. |
+| 2. Executar o sistema para verificar seu funcionamento | Revisor | _11/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | O sistema foi executado corretamente. |
+| 3. Verificar as operações de cadastro, consulta, atualização e exclusão | Revisor | _11/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | As funcionalidades foram verificadas durante a execução. |
+| 4. Analisar a organização do código e identificar pontos de melhoria | Revisor | _11/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | Foram observados pequenos pontos que precisavam de atenção. |
+| 5. Discutir as observações e verificar as correções realizadas | Revisor / Autor | _11/11_ | ✅ Concluída ☐ Em andamento ☐ Com desvio | Os pontos identificados foram corrigidos em conjunto. |
 
 **5b. ANÁLISE DE INSUMOS E CRITÉRIOS DE QUALIDADE:**
 
 | RECURSO | QTDE PLANEJADA | QTDE UTILIZADA | VARIAÇÃO | JUSTIFICATIVA TÉCNICA |
 |---|---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ | _…_ |
+| Repositório e código-fonte | 1 | 1 | 0 | Utilizado para analisar a estrutura e a organização do projeto. |
+| Operações do CRUD | 4 | 4 | 0 | Consideradas na verificação das funcionalidades principais. |
+| Ambiente de execução | 1 | 1 | 0 | Utilizado para executar o sistema e observar seu comportamento. |
 
 **5c. CONTROLE DE QUALIDADE:**
-- **Critério ou norma técnica:** _…_
-- **A solução atende?** ☐ Sim ☐ Parcialmente ☐ Não
+- **Critério ou norma técnica:** Verificar o funcionamento das operações do CRUD, a organização do código e a consistência do comportamento do sistema durante a execução.
+- **A solução atende?** ☐ Sim ✅ Parcialmente ☐ Não
 
 **5d. GESTÃO DE RISCOS:**
-- **Risco:** _…_
-- **Estratégia de mitigação:** _…_
+- **Risco:** Alguns problemas de validação ou comportamento em situações específicas poderiam não ser identificados durante os testes mais básicos do sistema.
+- **Estratégia de mitigação:** Realizar testes das funcionalidades, observar o comportamento do programa, analisar o código-fonte e verificar novamente os pontos corrigidos. Também é importante ampliar os testes com entradas vazias e inválidas.
 
 **5e. RASTREABILIDADE DAS DECISÕES TÉCNICAS — COM VÍNCULO AO CONTEÚDO:**
 
 | DATA | DECISÃO TÉCNICA | RESP. | OBJETO DE CONHECIMENTO MOBILIZADO | FUNDAMENTAÇÃO / REFERÊNCIA |
 |---|---|---|---|---|
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
-| _DD/MM/AA_ | _…_ | _…_ | _…_ | _…_ |
+| 11/11/2026 | Executar o sistema antes de avaliar sua qualidade, verificando o comportamento das funcionalidades. | Revisor | Testes de software e operações CRUD | Código-fonte e execução prática do projeto revisado. |
+| 11/11/2026 | Verificar as quatro operações principais para observar se o sistema realiza as ações esperadas. | Revisor | Estruturas condicionais e operações CRUD | Execução prática das funcionalidades do sistema. |
+| 11/11/2026 | Identificar pontos que precisavam de ajustes e discutir as observações com a autora. | Revisor / Autora | Depuração e análise de código | Observação do comportamento do programa e análise do código-fonte. |
+| 11/11/2026 | Verificar novamente o funcionamento após as correções realizadas. | Revisor / Autora | Testes e validação funcional | Reexecução do sistema após os ajustes. |
 
 ### 🧩 CAMPO 07 — Evolução conceitual
 *AV Qualis — Grupo 3 | Individual | Quinta 26/11, 23h59*
