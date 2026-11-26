@@ -654,9 +654,9 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 4. **Desvio ou erro encontrado + causa técnica:** Não me recordo de um erro específico de execução durante as atividades desse ciclo. Um dos pontos que exigiu mais atenção foi compreender como dividir a lógica de um programa em funções menores e entender como os parâmetros permitem passar informações para uma função e como o return permite devolver um resultado para o trecho do programa que realizou sua chamada.
 5. **Decisão de ajuste + fonte:** A partir do conteúdo estudado, compreendi que a utilização de funções pode tornar o código mais organizado, facilitando a leitura, a reutilização de instruções e a manutenção do programa. Também compreendi a importância dos parâmetros para receber informações e do return para devolver resultados. Apesar de ainda não ter aplicado essa organização ao código principal do MARÉ, identifiquei que operações como cadastro, consulta, atualização e cancelamento poderiam ser separadas em funções específicas.
 
-Fonte: Explicação do professor e exercícios práticos desenvolvidos durante a aula de 28/10.
+ Fonte: Explicação do professor e exercícios práticos desenvolvidos durante a aula de 28/10.
 
-Objeto de conhecimento mobilizado: Funções, parâmetros, argumentos, retorno de valores e modularização.
+ Objeto de conhecimento mobilizado: Funções, parâmetros, argumentos, retorno de valores e modularização.
 
 6. **Feedback recebido e o que mudei:** Não recebi um feedback individual específico durante esse ciclo. As atividades práticas contribuíram para ampliar minha compreensão sobre a utilização de funções e a importância de organizar melhor o código.
 7. **Próximo passo:** Continuar praticando a definição e a chamada de funções, aprofundando a compreensão sobre parâmetros e retornos e buscando aplicar a modularização ao MARÉ, separando suas operações em funções específicas.
@@ -675,13 +675,18 @@ Objeto de conhecimento mobilizado: Funções, parâmetros, argumentos, retorno d
 </details>
 
 #### Registro do Ciclo 11 — 04/11
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender o conceito de recursividade em Python e como uma função pode chamar a si mesma para resolver um problema.
+2. **O que implementei (commits / arquivos / links):** Durante a aula, acompanhei o conteúdo sobre recursividade e conheci sua aplicação na resolução de problemas por meio de chamadas sucessivas de uma função. Não implementei essa estrutura no código principal do MARÉ neste ciclo.
+3. **Objeto(s) de conhecimento mobilizado(s):** Recursividade, funções, chamadas recursivas, caso-base, condição de parada e pilha de execução.
+4. **Desvio ou erro encontrado + causa técnica:** Não identifiquei um erro específico no código do MARÉ relacionado à recursividade, pois o conceito não foi aplicado ao projeto. O conteúdo foi trabalhado em nível de estudo, sem alteração da estrutura existente do sistema.
+5. **Decisão de ajuste + fonte:** A partir do conteúdo apresentado, compreendi que uma função recursiva precisa de uma condição de parada, chamada de caso-base, para evitar chamadas indefinidas. Também entendi que cada chamada recursiva representa uma nova etapa de execução, que permanece organizada na pilha de execução. Embora não tenha aplicado esse conceito ao MARÉ, reconheci sua importância para resolver determinados problemas de programação.
+
+ Fonte: Explicação do professor e conteúdo trabalhado durante a aula de 04/11.
+
+ Objeto de conhecimento mobilizado: Funções, recursividade, caso-base e pilha de execução.
+
+6. **Feedback recebido e o que mudei:** Não recebi um feedback individual específico durante este ciclo.
+7. **Próximo passo:** Continuar aprofundando o estudo sobre recursividade, praticando a construção de funções recursivas e compreendendo melhor a relação entre chamadas recursivas e condições de parada.
 
 ### 🧩 CAMPO 06 — Próximos passos para a defesa
 *AV Qualis — Grupo 3 | Individual | Quinta 26/11, 23h59*
