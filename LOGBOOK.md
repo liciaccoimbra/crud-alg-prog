@@ -648,13 +648,18 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 </details>
 
 #### Registro do Ciclo 10 — 28/10
-1. **Desafio do ciclo (em 1 frase):** _…_
-2. **O que implementei (commits / arquivos / links):** _…_
-3. **Objeto(s) de conhecimento mobilizado(s):** _…_
-4. **Desvio ou erro encontrado + causa técnica:** _…_
-5. **Decisão de ajuste + fonte:** _…_
-6. **Feedback recebido e o que mudei:** _…_
-7. **Próximo passo:** _…_
+1. **Desafio do ciclo (em 1 frase):** Compreender a utilização de funções em Python e como a modularização pode contribuir para a organização e manutenção de um programa.
+2. **O que implementei (commits / arquivos / links):** Durante a aula, estudei e pratiquei a utilização de funções em Python por meio de exercícios. Trabalhei a definição e a chamada de funções, além da utilização de parâmetros e retornos. Também compreendi como dividir um programa em partes menores, cada uma responsável por executar uma determinada tarefa. Nesse ciclo, não realizei a modularização do código principal do MARÉ, que continuou organizado por meio de um laço de repetição e estruturas condicionais.
+3. **Objeto(s) de conhecimento mobilizado(s):** Funções em Python, definição e chamada de funções, parâmetros, argumentos, retorno de valores com return e modularização do código.
+4. **Desvio ou erro encontrado + causa técnica:** Não me recordo de um erro específico de execução durante as atividades desse ciclo. Um dos pontos que exigiu mais atenção foi compreender como dividir a lógica de um programa em funções menores e entender como os parâmetros permitem passar informações para uma função e como o return permite devolver um resultado para o trecho do programa que realizou sua chamada.
+5. **Decisão de ajuste + fonte:** A partir do conteúdo estudado, compreendi que a utilização de funções pode tornar o código mais organizado, facilitando a leitura, a reutilização de instruções e a manutenção do programa. Também compreendi a importância dos parâmetros para receber informações e do return para devolver resultados. Apesar de ainda não ter aplicado essa organização ao código principal do MARÉ, identifiquei que operações como cadastro, consulta, atualização e cancelamento poderiam ser separadas em funções específicas.
+
+Fonte: Explicação do professor e exercícios práticos desenvolvidos durante a aula de 28/10.
+
+Objeto de conhecimento mobilizado: Funções, parâmetros, argumentos, retorno de valores e modularização.
+
+6. **Feedback recebido e o que mudei:** Não recebi um feedback individual específico durante esse ciclo. As atividades práticas contribuíram para ampliar minha compreensão sobre a utilização de funções e a importância de organizar melhor o código.
+7. **Próximo passo:** Continuar praticando a definição e a chamada de funções, aprofundando a compreensão sobre parâmetros e retornos e buscando aplicar a modularização ao MARÉ, separando suas operações em funções específicas.
 
 ## 🔵 CICLO 11 — 04/11 — Recursividade
 
