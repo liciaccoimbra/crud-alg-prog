@@ -111,14 +111,14 @@ Atualize a cada commit (troque ⬜ por ✅).
 | 1 | Campo 01 — Instrumento de entrada | 16/11 | ✅ | ✅ |
 | 1 | Campo 02 — Aprofundamento | 16/11 | ✅ | ✅ |
 | 2 | Registros dos Ciclos 05, 06, 07 e 08 | 21/11 | ✅ | ✅ |
-| 2 | Checkpoint Conceitual | 21/11 | ⬜ | ⬜ |
+| 2 | Checkpoint Conceitual | 21/11 | ✅ | ✅ |
 | 2 | Campo 03 — Execução e desvios | 21/11 | ✅ | ✅ |
 | 2 | Campo 04 — Interação com IA | 21/11 | ✅ | ✅ |
-| 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 06 — Próximos passos | 26/11 | ⬜ | ⬜ |
-| 3 | Campo 07 — Evolução conceitual | 26/11 | ⬜ | ⬜ |
-| 🏁 | Defesa Técnica | 18/11 | ⬜ | — |
+| 3 | Registros dos Ciclos 09, 10, 11 e 12 | 26/11 | ✅ | ✅ |
+| 3 | Campo 05 — Revisão por pares nº 1 e nº 2 | 26/11 | ✅ | ✅ |
+| 3 | Campo 06 — Próximos passos | 26/11 | ✅ | ✅ |
+| 3 | Campo 07 — Evolução conceitual | 26/11 | ✅ | ✅ |
+| 🏁 | Defesa Técnica | 18/11 | ✅ | — |
 
 ---
 
@@ -735,7 +735,7 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 
 #### Registro do Ciclo 12 — 11/11
 1. **Desafio do ciclo (em 1 frase):** Melhorar a organização do código do MARÉ, aplicando conceitos de estruturas de dados e buscando tornar a manipulação dos agendamentos mais clara e organizada.
-2. **O que implementei (commits / arquivos / links):** Revisei a organização dos dados do MARÉ, utilizando listas para armazenar os agendamentos e dicionários para reunir as informações de cada reserva. Essa organização permite trabalhar com vários registros e acessar seus dados por meio de chaves, como ID, nome do cliente, modalidade, data e horário.
+2. **O que implementei (commits / arquivos / links):** Revisei e aprimorei a organização dos agendamentos no MARÉ, retomando a estrutura de lista de dicionários. Essa organização permite armazenar vários registros e acessar suas informações por meio de chaves, como ID, nome do cliente, modalidade, data e horário.
 3. **Objeto(s) de conhecimento mobilizado(s):** Estruturas de dados, listas, dicionários, pares chave-valor, iteração e manipulação de elementos com os métodos append() e remove().
 4. **Desvio ou erro encontrado + causa técnica:** Durante a organização do código, percebi a importância de estruturar corretamente as informações para facilitar sua localização e manipulação. O uso de variáveis separadas para cada informação não seria adequado para trabalhar com vários agendamentos, tornando necessário utilizar estruturas que permitissem agrupar e organizar os registros.
 5. **Decisão de ajuste + fonte:** Utilizei uma lista chamada agendamentos para armazenar as reservas e dicionários para reunir as informações de cada registro. Essa decisão permite adicionar, consultar, atualizar e remover agendamentos de maneira mais organizada. Os dicionários facilitam o acesso às informações por meio de suas chaves, enquanto a lista permite armazenar vários registros.
@@ -798,30 +798,32 @@ Fonte: Anotações pessoais e explicação do professor durante a aula de 14/10/
 
 **7a. O que eu pensava no início do ciclo (com base no Campo 01 — registrar a hipótese inicial e os objetos de conhecimento que achava conhecer):**
 
-> _…_
+> No início da disciplina, eu considerava que já tinha algumas noções de lógica de programação, estruturas condicionais, variáveis e tipos de dados. Entretanto, minha compreensão ainda era básica e eu tinha dificuldade para organizar o passo a passo de uma solução e transformar meu raciocínio em comandos Python. Também não tinha segurança para identificar quais informações eram realmente importantes para resolver um problema e como organizar o código quando encontrava alguma dificuldade. Minha hipótese inicial era que as falhas do CRUD poderiam estar relacionadas à organização da lógica e à escrita dos comandos.
 
 **7b. O que aprendi — conceitos, princípios ou relações técnicas que não dominava no início e que agora consigo explicar com precisão (mínimo 3 objetos de conhecimento):**
 
 | OBJETO DE CONHECIMENTO | O QUE EU NÃO DOMINAVA | O QUE APRENDI E CONSIGO DEMONSTRAR | EVIDÊNCIA (campo do Logbook onde aparece) |
 |---|---|---|---|
-| _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ |
-| _…_ | _…_ | _…_ | _…_ |
+| Estruturas de dados: listas e dicionários | Não compreendia completamente como organizar várias reservas e suas informações em estruturas de dados. | Aprendi a utilizar listas para armazenar vários agendamentos e dicionários para organizar os dados de cada reserva em pares de chave e valor. | Campo 03 (3a e 3c), Ciclos 08 e 12. |
+| Laços de repetição e busca | Tinha dificuldade para percorrer uma lista e localizar um registro específico, principalmente ao combinar diferentes estruturas. | Aprendi a utilizar o for para percorrer os agendamentos, comparar identificadores e localizar uma reserva pelo ID. | Ciclos 07 e 09; Campo 06 (6c). |
+| Variáveis booleanas e controle de fluxo | Tinha dificuldade para compreender como controlar o resultado de uma busca e organizar a sequência das operações. | Compreendi como utilizar uma variável booleana para indicar se um registro foi encontrado e como o break encerra a busca após localizar a reserva. | Ciclo 09; Campo 06 (6c). |
+| Estruturas condicionais e validação de dados | Não compreendia completamente as limitações das verificações utilizadas para validar as informações recebidas. | Aprendi que verificar apenas se um campo está vazio não garante que o dado esteja correto e que as validações precisam ser consistentes nas operações de cadastro e atualização. | Campo 03 (3a e 3b) e Campo 04 (4d e 4e). |
+
 
 **7c. Conceitos que precisei corrigir ao longo do ciclo — onde eu estava equivocado e o que o corrigiu (Fechamento Teórico, pesquisa, Peer Review, arguição):**
 
-1. **Equívoco:** _…_ — **Correção:** _…_
-   **O que corrigiu:** _…_
-2. **Equívoco:** _…_ — **Correção:** _…_
-   **O que corrigiu:** _…_
+1. **Equívoco:** Inicialmente, não percebia que utilizar variáveis separadas para armazenar cada reserva seria pouco prático quando o sistema precisasse trabalhar com vários agendamentos. — **Correção:** Compreendi que a utilização de uma lista de dicionários permite armazenar vários registros e organizar individualmente as informações de cada reserva.
+   **O que corrigiu:** As aulas sobre estruturas de dados, a prática com listas e dicionários e a aplicação desses conceitos no MARÉ, registradas no Campo 03.
+2. **Equívoco:** Não compreendia todas as limitações das validações de entrada e considerava as verificações de preenchimento como uma garantia suficiente para os dados. — **Correção:** Aprendi que verificar se um campo é diferente de uma string vazia não impede todas as entradas inadequadas, como informações preenchidas somente com espaços. Também percebi que as validações precisam ser consideradas nas operações de atualização, e não apenas no cadastro.
+   **O que corrigiu:** A análise do código-fonte do MARÉ e a interação com o ChatGPT durante o Campo 04, quando comparei as observações da IA com o comportamento real do programa.
 
 **7d. Transferência — como este aprendizado se aplica a um contexto diferente do problema trabalhado (ao menos 1 exemplo concreto da área de formação):**
 
-> _…_
+> Os conhecimentos adquiridos também podem ser aplicados em outros sistemas, como uma aplicação de controle de empréstimos de equipamentos em um laboratório de informática. Nesse contexto, seria possível utilizar listas para armazenar os equipamentos disponíveis e dicionários para organizar informações como identificação, nome do equipamento, disponibilidade e responsável pelo empréstimo. Os laços de repetição poderiam ser utilizados para localizar um equipamento pelo seu identificador, enquanto as estruturas condicionais permitiriam verificar se ele está disponível antes de autorizar o empréstimo. Dessa forma, consigo perceber que os conceitos estudados não se limitam ao MARÉ e podem ser utilizados em diferentes problemas da área de desenvolvimento de software.
 
 **7e. Avaliação honesta do próprio percurso — o que ainda não domino e preciso aprofundar após este ciclo:**
 
-> _…_
+> Ao longo da disciplina, percebi uma evolução na minha compreensão da lógica de programação e na capacidade de organizar os passos necessários para resolver um problema. Entretanto, ainda preciso aprofundar meus conhecimentos sobre a combinação de diferentes estruturas e desenvolver mais segurança para construir algoritmos sem depender tanto de orientações. Também preciso praticar a utilização de funções, parâmetros e retornos, aplicando a modularização ao meu próprio código, além de desenvolver melhor a compreensão sobre recursividade. Outro ponto que pretendo melhorar é a validação de dados, considerando diferentes tipos de entrada e situações que possam comprometer o funcionamento do sistema. Reconheço que ainda tenho dificuldades, mas hoje consigo compreender melhor a lógica por trás das operações e identificar caminhos para aprimorar minhas soluções.
 
 ---
 
